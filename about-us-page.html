@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Us</title>
-<link rel="shortcut icon" type="image/svg" href="{% static './img/logo-icon.svg' %}" sizes="96x96" />
+<link rel="shortcut icon" type="image/svg" href=" ./img/logo-icon.svg " sizes="96x96" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <!-- <link rel="stylesheet" href="{% static 'css/index.css' %}"> -->
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <!-- <link rel="stylesheet" href=" css/index.css "> -->
+    <link rel="stylesheet" href=" css/style.css ">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,100&display=swap" rel="stylesheet">
@@ -25,10 +25,10 @@
   <div class="container about-us-page__container pos-r">
 <header id="myHeader">
   <nav class="nav-menu navbar navbar-expand-lg p-0">
-    <a class="navbar-brand" href="{% url 'home' %}">
+    <a class="navbar-brand" href="index.html">
       <div class="logo">
         <div class="logo-icon-container">
-          <img src="{% static 'img/logo-icon.svg' %}" alt="">
+          <img src=" img/logo-icon.svg " alt="">
         </div>
         <p>Enver</p>
       </div>
@@ -51,7 +51,7 @@
             <i class="fa-solid fa-caret-down" style=" margin-top: 2px; color: var(--second-text-color);"></i>
           </a>
           <div class="dropdown-menu border-0">
-            <a class="dropdown-item p-0" href="{% url 'services-page' %}">Що ми робимо</a>
+            <a class="dropdown-item p-0" href="services-page.html">Що ми робимо</a>
           </div>
         </li>
         <li class="nav-item">
@@ -64,11 +64,11 @@
             <i class="fa-solid fa-caret-down" style=" margin-top: 2px; color: var(--second-text-color);"></i>
           </a>
           <div class="dropdown-menu border-0">
-            <a class="dropdown-item p-0" href="{% url 'about-us' %}">Хто ми</a>
+            <a class="dropdown-item p-0" href="about-us-page.html">Хто ми</a>
           </div>
         </li>
       </ul>
-      <a href="{% url 'contact-us' %}" class="header-btn__contact-us form-inline"
+      <a href="contact-form.html" class="header-btn__contact-us form-inline"
         style="text-decoration: none;">Зв'яжіться з нами</a>
     </div>
   </nav>
@@ -109,7 +109,7 @@
   <h2>Кращий спосіб вести бізнес.</h2>
   <div class="about-us-page__second-section-content">
     <div class="img-certificate-container">
-      <img src="{% static 'img/about-us-page-certificate.png' %}" alt="B Corp">
+      <img src=" img/about-us-page-certificate.png " alt="B Corp">
     </div>
     <div class="about-us-page__second-section-paragraph">
       <p><b>У 2021 році Enver отримав статус B Corp, що означає, що нас незалежно
@@ -128,7 +128,7 @@
           <div class="gradient-rectangle-1"></div>
 <h2>Один із кращих місць для роботи.</h2>
 <div class="about-us-page__third-section-img-logos-container">
-  <img src="{% static 'img/about-us-page-logos-white.png' %}" alt="Prizes">
+  <img src=" img/about-us-page-logos-white.png " alt="Prizes">
 </div>
 <p>Немає нагороди кращої, ніж визнання як відмінне місце для роботи.</p>
 <p>Enver був обраний своїми співробітниками одним із кращих місць для праці, і входить
@@ -138,7 +138,7 @@
       </section>
       <section class="about-us-page__team-section">
         <div class="about-us-page__team-section-photo-container">
-          <img src="{% static 'img/about-us-team-1.png' %}" alt="Team">
+          <img src=" img/about-us-team-1.png " alt="Team">
         </div>
         <div class="about-us-page__team-section-text">
         <h2 style="margin-bottom: 30px;">Робота повинна існувати, щоб полегшити життя.</h2>
@@ -168,7 +168,7 @@
               <p>Зв'яжіться з нами, і ми організуємо відеодзвінок для докладного обговорення ваших потреб.</p>
               <p>Ми на відстані лише одного повідомлення.</p>
             </div>
-            <a class=" about-us-page__contact-us-btn" href="{% url 'contact-us' %}"> <p>
+            <a class=" about-us-page__contact-us-btn" href="contact-form.html"> <p>
             Зв'яжіться з нами
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" stroke="currentColor"
@@ -182,7 +182,7 @@
     <footer>
       <nav>
         <div class="logo">
-          <img src="{% static 'img/logo-icon.svg' %}" alt="">
+          <img src=" img/logo-icon.svg " alt="">
           <p>Enver</p>
         </div>
         <div class="footer__pages">
@@ -209,8 +209,8 @@
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script src="{% static 'js/about-us-counter.js' %}"></script>
-<script src="{% static 'js/scrolled-header.js' %}"></script>
-<script src="{% static 'js/btn-top.js' %}"></script>
+<script src=" js/about-us-counter.js "></script>
+<script src=" js/scrolled-header.js "></script>
+<script src=" js/btn-top.js "></script>
 </body>
 </html>
