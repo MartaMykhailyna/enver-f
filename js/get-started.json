@@ -1,5 +1,38 @@
 {
     "title": "Створіть свою чудову платформу",
     "description": "Enver Studio - це цифровий студійний агент, який пропонує ряд послуг, таких як дизайн UI/UX для розробників. Ми забезпечимо найкращий сервіс для тих, хто користується нашими послугами.",
-    "buttonText": "Наші послуги"
-}
+    "buttonText": "Наші послуги",
+
+"services": [
+      {
+        "icon": " img/services-development-icon.svg ",
+        "title": "Розробка",
+        "description": "Створимо платформу з кращою та найкрутішою якістю."
+      },
+      {
+        "icon": " img/services-ui-ux-design-icon.svg ",
+        "title": "UI/UX Дизайн",
+        "description": "Ми надаємо послуги з дизайну UI/UX, і, звісно ж, з кращою якістю."
+      },
+      {
+        "icon": " img/services-graphik-designer-icon.svg ",
+        "title": "Графічний Дизайн",
+        "description": "Ми надаємо послуги з графічного дизайну з кращими дизайнерами."
+      },
+      {
+        "icon": " img/services-motion-graphik-icon.svg ",
+        "title": "Моушн Графіка",
+        "description": "Створіть платформу з кращою та найкрутішою якістю від нас."
+      },
+      {
+        "icon": " img/services-photography-icon.svg ",
+        "title": "Фотографія",
+        "description": "Ми надаємо послуги з фотографії, і, звісно ж, з кращою якістю."
+      },
+      {
+        "icon": " img/services-videography-icon.svg ",
+        "title": "Відеозйомка",
+        "description": "Створіть платформу з кращою та найкрутішою якістю від нас."
+      }
+    ]}
+  
